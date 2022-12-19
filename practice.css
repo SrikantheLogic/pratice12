@@ -1,0 +1,46 @@
+.logo{
+    width: 210px;
+    height:75px;
+}
+@media screen  and (max-width:700px) {
+    .logo{
+        width: 100px;
+        height:45px;
+    }
+   .nav_wrapper{
+    padding: 0.7rem;
+   }
+}
+.linkedin-logo{
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}
+
+.process_img{
+    height: 50%;
+    width: 40%;
+    padding-top: 2rem;
+    margin-left: 12rem;
+    box-shadow: 10px 0px 3px #051f49;
+}
+
+.sticky{
+     
+    background-color:#051f49 !important ;
+   
+   
+   
+
+}
+.w-container:before, .w-container:after {
+    content: " ";
+    display: table;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-column-end: 2;
+    grid-row-end: 2;
+}
+.w-container:after {
+    clear: both;
+}
